@@ -1,8 +1,8 @@
 class QuTree < Formula
   desc "C++ linear algebra package for tensor trees"
   homepage "https://github.com/roman-ellerbrock/QuTree"
-  url "https://github.com/roman-ellerbrock/QuTree/archive/v0.1.0.tar.gz"
-  sha256 "7914a1a738eaa5a5d13a62aacc2ec7e3f49b68b31e3b0cd6ba951392545cc619"
+  url "https://github.com/roman-ellerbrock/QuTree/archive/v0.1.1.tar.gz"
+  sha256 "f2066be5c666e83273551abfaba1ed37bbfebb9046a01bf0bf23884074335b75"
   head "https://github.com/roman-ellerbrock/QuTree.git"
 
   depends_on "cmake" => :build
