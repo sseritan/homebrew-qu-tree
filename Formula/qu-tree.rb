@@ -3,10 +3,11 @@ class QuTree < Formula
   homepage "https://github.com/roman-ellerbrock/QuTree"
   url "https://github.com/roman-ellerbrock/QuTree/archive/v0.1.0.tar.gz"
   sha256 "7914a1a738eaa5a5d13a62aacc2ec7e3f49b68b31e3b0cd6ba951392545cc619"
+  head "https://github.com/roman-ellerbrock/QuTree.git"
 
   depends_on "cmake" => :build
-  depends_on "unittest-cpp" => :test
   depends_on "eigen"
+  depends_on "unittest-cpp"
 
   def install
     system "cmake", ".", *std_cmake_args
